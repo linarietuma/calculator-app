@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css" >
+  <link rel="stylesheet" href="css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+
+<body>
+  <section class=wrapper>
+    <header>
+      <div class="reload">
+        <a href="index.html">calc</a>
+      </div>
+      <div class="toggle">
+        <div id="theme-label">
+          <label for="button-group">THEME</label>
+        </div>
+        <div class="button-group">
+          <label for="default" id="label1">1</label>
+          <label for="light" id="label2">2</label>
+          <label for="dark" id="label3">3</label>
+
+          <label class="custom-toggle">
+            <input type="radio" name="theme" id="default" value="1" checked>
+            <span class="checked"></span>
+          </label>
+          <label class="custom-toggle">
+            <input type="radio" name="theme" id="light" value="2">
+            <span class="checked"></span>
+          </label>
+          <label class="custom-toggle">
+            <input type="radio" name="theme" id="dark" value="3">
+            <span class="checked"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <div class="display"></div>
+    <main>
+      <button id="seven" value="7">7</button>
+      <button id="eight" value="8">8</button>
+      <button id="nine" value="9">9</button>
+      <button id="delete" value="del">DEL</button>
+      <button id="four" value="4">4</button>
+      <button id="five" value="5">5</button>
+      <button id="six" value="6">6</button>
+      <button class="operator" id="plus" value="+">+</button>
+      <button id="one" value="1">1</button>
+      <button id="two" value="2">2</button>
+      <button id="three" value="3">3</button>
+      <button class="operator" id="minus" value="-">-</button>
+      <button id="dot" value=".">.</button>
+      <button id="zero" value="0">0</button>
+      <button class="operator" id="divide" value="/">/</button>
+      <button class="operator" id="multiply" value="*">x</button>
+      <button id="reset" value="reset">RESET</button>
+      <button id="equals" value="=">=</button>
+    </main>
+  </section>
+
+  <!-- <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+@media (max-width: 550px) {
+    .wrapper {
+        width: 330px;
+        margin-top: 0;
+        grid-template-rows: 0.7fr 0.8fr 3.8fr;
+    }
+
+    header {
+        margin-bottom: 0.5rem;
+    }
+
+    header a {
+        font-size: 32px;
+    }
+
+    header label {
+        font-size: 13px;
+    }
+
+    .button-group {
+        width: 60px;
+    }
+
+    .custom-toggle {
+        height: 15px;
+        width: 15px;
+    }
+
+    .custom-toggle .checked {
+        height: 15px;
+        width: 15px;
+    }    
+
+    #label1, #label2, #label3 {
+        top: -20px;
+    }
+
+    #label1 {
+        right: 50px;
+    }
+    
+    #label2 {
+        right: 28px;
+    }
+    
+    #label3 {
+        right: 7px;
+    }
+
+    main {
+        gap: 15px;
+        padding: 25px;
+    }
+
+    button {
+        border-radius: 5px;
+        font-size: 27px;
+    }
+
+    #delete, #reset, #equals {
+        font-size: 16px;
+    }
+}

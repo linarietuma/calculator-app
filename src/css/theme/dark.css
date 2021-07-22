@@ -1,0 +1,58 @@
+body {
+    background-color: hsl(268, 75%, 9%);
+    color: hsl(52, 100%, 62%);
+}
+
+.button-group, .display, main {
+    background-color: hsl(268, 71%, 12%);
+}
+
+header a {
+    color: hsl(52, 100%, 62%);
+}
+
+.custom-toggle .checked {
+    background-color: hsl(176, 100%, 44%);
+}
+
+button {
+    background-color: hsl(268, 47%, 21%);
+    border-color: hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
+}
+
+button:hover {
+    background-color: hsl(290, 70%, 36%, 70%);
+}
+
+#delete, #reset {
+    background-color: hsl(281, 89%, 26%);
+    border-color: hsl(285, 91%, 52%);
+}
+
+#delete:hover, #reset:hover {
+    background-color: hsl(285, 91%, 52%, 70%);
+}
+
+
+#equals {
+    background-color: hsl(176, 100%, 44%);
+    border-color: hsl(177, 92%, 70%);
+    color: hsl(198, 20%, 13%);
+}
+
+#equals:hover {
+    background-color: hsl(177, 92%, 70%);
+}
+
+#plus:hover, #minus:hover, #divide:hover, #multiply:hover {
+    color: hsl(268, 47%, 21%);
+    border-color: hsl(285, 91%, 52%, 20%);
+    background-color: hsl(52, 100%, 62%);
+}
+
+.selected {
+    color: hsl(268, 47%, 21%);
+    border-color: hsl(285, 91%, 52%, 20%);
+    background-color: hsl(52, 100%, 62%);
+}
