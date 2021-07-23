@@ -75,7 +75,7 @@ const toggle = document.querySelectorAll('input');
 // link object with the id of 'theme'
 const theme = document.querySelector('#theme');
 // paths to the CSS files with styling for the page's colour theme  
-const themeHref = ['css/theme/default.css', 'css/theme/light.css', 'css/theme/dark.css'];
+const themeHref = ['src/css/theme/default.css', 'src/css/theme/light.css', 'src/css/theme/dark.css'];
 
 // assign event listener to all input objects
 for (let i = 0; i < themeHref.length; i++) {
