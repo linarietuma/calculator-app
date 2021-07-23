@@ -7,6 +7,13 @@ let operator = false;
 let float1 = false;
 let float2 = false;
 let operatorType;
+let maxLength = 13;
+
+
+// change the number of digits displayed depending on screen size 
+window.addEventListener('resize', () => {
+    console.log('dragged');
+})
 
 // math functions
 const add = (a, b) => a + b;
@@ -118,7 +125,7 @@ function clicked(input) {
         }
         else if (input === '.') {
             // the argument is not already a float and is less than 14 characters in lenth
-            if (!float1 && argument1.length < 14) {
+            if (!float1 && argument1.length < maxLength - 1) {
                 argument1.push(input);
                 float1 = true;
             }
@@ -148,7 +155,7 @@ function clicked(input) {
         }
         else if (input === '.') {
             // the argument is not already a float and is less than 14 characters in length
-            if (!float2 && argument2.length < 14) {
+            if (!float2 && argument2.length < maxLength - 1) {
                 if (argument2.length === 0) {
                     argument2.push('0');
                     argument2.push(input);
@@ -242,7 +249,7 @@ function equals() {
 
 // checks if input is a number
 function isNumber(argument, input) {
-    if (argument.length < 15) {
+    if (argument.length < maxLength) {
         // the only character in the argument array is 0 (default)
         if (argument.length === 1 && argument[0] === '0') {
             argument[0] = input;
