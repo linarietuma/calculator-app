@@ -34,7 +34,7 @@ Desktop design
 ![](design/desktop-default-screenshot.png)
 
 Mobile design
-![](design/mobile-design-screenshot.pdf)
+![](design/mobile-design-screenshot.png)
 
 
 ### Links
