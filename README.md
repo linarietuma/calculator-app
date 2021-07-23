@@ -31,11 +31,11 @@ For detailed design guidelines see the [style guide](design/style-guide.md).
 ### Screenshot
 
 Desktop design 
-![](src/design/desktop-default-screenshot.jpg)
+![](design/desktop-default-screenshot.jpg)
 
 Mobile design
-![](src/design/mobile-light-screenshot.jpg)
-![](src/design/mobile-dark-screenshot.jpg)
+![](design/mobile-light-screenshot.jpg)
+![](design/mobile-dark-screenshot.jpg)
 
 
 ### Links
