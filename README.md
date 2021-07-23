@@ -30,12 +30,17 @@ For detailed design guidelines see the [style guide](design/style-guide.md).
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop design 
+![](src/design/desktop-default-screenshot.jpg)
+
+Mobile design
+![](src/design/mobile-light-screenshot.jpg)
+![](src/design/mobile-dark-screenshot.jpg)
 
 
 ### Links
 
-- Solution URL: 
+- Solution URL: [linarietuma.github.io/calculator-app/](https://linarietuma.github.io/calculator-app/)
 
 ## My process
 
