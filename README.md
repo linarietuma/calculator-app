@@ -64,6 +64,8 @@ for (let i = 0; i < btn.length; i++) {
         displayed.innerHTML = clicked(btn[i].value); // upon clicking clicked() is executed parsing in the button's corresponding value
     });
 }
+```
+```js
 
 // keyboard key-value pairs
 const keyboard = {
@@ -109,7 +111,7 @@ return argument1.reduce((total, num) => total + num);
 
 ### Useful resources
 
-- [Tristate Toggle Switch](https://dev.to/sanaz/tristate-toggle-switch-509n) Good step-by-step explanation on how to style radio buttons into a tridtate toggle switch
+- [Tristate Toggle Switch](https://dev.to/sanaz/tristate-toggle-switch-509n)- useful step-by-step explanation on how to style radio buttons into a tridtate toggle switch
 
 
 
