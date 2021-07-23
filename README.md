@@ -56,7 +56,7 @@ Arrow functions:
 const add = (a, b) => a + b;
 ```
 
-Event Listeners 
+Event Listeners: 
 ```js
 // assign click event listener to each button 
 for (let i = 0; i < btn.length; i++) {
