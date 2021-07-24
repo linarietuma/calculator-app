@@ -30,10 +30,11 @@ For detailed design guidelines see the [style guide](design/style-guide.md).
 
 ### Screenshot
 
-Desktop design 
+#### Desktop design 
 ![](design/desktop-default-screenshot.png)
 
-Mobile design
+#### Mobile design
+Default/ Light/ Dark theme
 ![](design/mobile-design-screenshot.png)
 
 
@@ -70,30 +71,6 @@ for (let i = 0; i < btn.length; i++) {
 }
 ```
 ```js
-
-// keyboard key-value pairs
-const keyboard = {
-    '1': '1',
-    '2': '2',
-    '3': '3',
-    '4': '4',
-    '5': '5',
-    '6': '6',
-    '7': '7',
-    '8': '8',
-    '9': '9',
-    '0': '0',
-    'Backspace': 'del',
-    'Enter': '=',
-    '=': '=',
-    '-': '-',
-    '+': '+',
-    '/': '/',
-    '*': '*',
-    'x': '*',
-    '.': '.'
-}
-
 // add keydown event listener 
 document.addEventListener('keydown', e => {
     try {
