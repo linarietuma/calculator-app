@@ -5,6 +5,12 @@
         grid-template-rows: 0.7fr 0.8fr 3.8fr;
     }
 
+    .display {
+        font-size: 35px;
+        padding: 0 30px;
+
+    }
+
     header {
         margin-bottom: 0.5rem;
     }
