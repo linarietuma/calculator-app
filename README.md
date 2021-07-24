@@ -54,7 +54,7 @@ Default/ Light/ Dark theme
 
 ### What I learned
 
-The aim of this project was to reinforce lessons learnt on the first half of the [Web Development Bootcamp 2021](https://www.udemy.com/share/101W9C2@FG1KfUtgc1EKcUBFCnFzfj5u/). Some of the major learnings while working through this project include:   
+The aim of this project was to reinforce lessons learnt on the first half of the [Web Development Bootcamp 2021](https://www.udemy.com/share/101W9C2@FG1KfUtgc1EKcUBFCnFzfj5u/) course. Some of the major learnings while working through this project include:   
 
 Arrow functions:
 ```js
@@ -94,7 +94,7 @@ return argument1.reduce((total, num) => total + num);
 
 ### Useful resources
 
-- [Tristate Toggle Switch](https://dev.to/sanaz/tristate-toggle-switch-509n)- useful step-by-step explanation on how to style radio buttons into a tridtate toggle switch
+- [Tristate Toggle Switch](https://dev.to/sanaz/tristate-toggle-switch-509n) - useful step-by-step explanation on how to style radio buttons into a tristate toggle switch
 
 
 
