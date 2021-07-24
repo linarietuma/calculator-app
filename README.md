@@ -85,7 +85,9 @@ document.addEventListener('keydown', e => {
 
 Array methods:
 ```js
-total = [...result.toString()]; 
+total = [...result.toString()];
+```
+```js 
 return argument1.reduce((total, num) => total + num);
 ```
 
